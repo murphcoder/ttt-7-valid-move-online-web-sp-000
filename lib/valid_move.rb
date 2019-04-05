@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(move)
+def valid_move?(board,move)
   move >= 0 && move <= 8 && position_taken?
 end
 
